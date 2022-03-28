@@ -1,0 +1,126 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../img/8B4EAF38-40ED-4952-B7D5-864569D87520.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container h1{
+    margin-top: 50px;
+    font-size: 130px;
+    font-family: 'Londrina Shadow', cursive;
+    color: rgb(250, 222, 171);
+
+}
+
+.container h2{
+    font-family: 'Sigmar One', cursive;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(253, 242, 242);
+}
+
+.country{
+    width: 150px;
+    height: 35px;
+    margin: 20px auto 0;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 40px;
+    margin: 30px auto;
+}
+
+.input-text{
+    width: 90%;
+    padding: 0 7px;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid;
+    font-size: 20px;
+
+}
+
+.input-btn{
+    width: 10%;
+    cursor: pointer;
+    background-color: rgb(149, 236, 149);
+    color: white;
+    border-radius: 0 3px 3px 0;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.todo-list{
+    width: 60%;
+}
+
+li{
+    height: 30px;
+    border: 1px solid white;
+    border-bottom: none;
+    padding: 3px 11px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(246, 247, 248, 0.473);
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+li:last-child{
+    border-bottom: 1px solid white;
+}
+
+.trush-icon{
+    color: rgb(241, 157, 157);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 780px) {
+
+    .container h1{
+        font-size: 70px;
+    }
+
+    .container h2{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .country{
+        height: 30px;
+    }
+
+    form{
+        height: 30px;
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .input-text{
+        width: 80%;
+        
+    }
+
+    .input-btn{
+        width: 20%;
+    }
+
+    .todo-list{
+        width: 80%;
+    }
+}
+
